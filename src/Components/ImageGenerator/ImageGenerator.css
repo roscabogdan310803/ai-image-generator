@@ -1,0 +1,125 @@
+
+
+
+
+.ai-image-generator{
+  display: flex;
+  flex-direction: column;
+  margin: auto;
+  align-items: center;
+  height: 100vh;
+  gap: 30px;
+  background:
+    linear-gradient(
+      21deg,
+      hsl(42, 100%, 45.1%) 0%,
+      hsl(41.74, 100%, 45.1%) 11%,
+      hsl(41.14, 99.13%, 45.29%) 19.2%,
+      hsl(39.74, 98.28%, 45.49%) 25%,
+      hsl(37.89, 97.44%, 45.88%) 29%,
+      hsl(35.58, 95.76%, 46.27%) 31.7%,
+      hsl(32.68, 94.12%, 46.67%) 33.6%,
+      hsl(28.65, 91.74%, 47.45%) 35.3%,
+      hsl(24.22, 88.62%, 48.24%) 37.1%,
+      hsl(19.07, 85.6%, 49.02%) 39.7%,
+      hsl(12.98, 81.89%, 50.2%) 43.6%,
+      hsl(5.65, 77.33%, 51.57%) 49.3%,
+      hsl(357.92, 71.78%, 52.75%) 57.2%,
+      hsl(348.77, 66.52%, 54.31%) 68%,
+      hsl(338.96, 59.82%, 56.08%) 82.1%,
+      hsl(327.89, 53.27%, 58.04%) 100%
+    );
+  font-family: "Kanit", sans-serif;
+  font-weight: 800;
+  font-style: normal;
+}
+
+.header{
+  font-size: 70px;
+  font-weight: 500;
+  padding-bottom: 30px;
+}
+
+.header span{
+  color: hsl(42, 100%, 45.1%);
+}
+
+.img-loading{
+  display: flex;
+  flex-direction: column;
+}
+
+.img-loading{
+  width: 512px;
+}
+
+input {
+  width: 100%;
+  border: none;
+  font-size: 20px;
+  padding: 10px;
+  border-radius: 5px;
+  box-shadow: rgb(38, 57, 77) 0 20px 30px -10px;
+  box-sizing: border-box;
+  width: 1000px;
+}
+
+.images-section{
+  width: 100%;
+  max-width: 600px;
+  display: flex;
+  justify-content: center;
+}
+
+.image-container{
+  width: 70%;
+  border-radius: 15px;
+  overflow: hidden;
+}
+
+.image-container img{
+  width: 100%;
+}
+
+.search-box{
+  display: flex;
+  width: 1000px;
+  height: 95px;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50px;
+}
+
+.generate-btn{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 300px;
+  font-size: 20px;
+  border-radius: 50px;
+  background: hsl(327.89, 53.27%, 58.04%);
+  cursor: pointer;
+  padding: 15px;
+}
+
+.loading-bar{
+  width: 0px;
+  height: 8px;
+  background: hsl(327.89, 53.27%, 58.04%) ;
+}
+
+.loading-text{
+  font-size: 18px;
+  color: white;
+}
+
+.loading-bar-full{
+  width: 512px;
+  height: 8px;
+  background: hsl(327.89, 53.27%, 58.04%) ;
+  transition: 15s;
+}
+
+.display-none{
+  display: none;
+}
